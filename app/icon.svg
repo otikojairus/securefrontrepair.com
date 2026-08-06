@@ -1,0 +1,14 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="52" fill="#0B1F3A"/>
+  <!-- shield -->
+  <path d="M128 38 C162 38 190 54 202 82 L202 128 C202 176 170 206 128 222 C86 206 54 176 54 128 L54 82 C66 54 94 38 128 38 Z" fill="#13284A" stroke="#2E4A78" stroke-width="6"/>
+  <!-- door body -->
+  <rect x="100" y="86" width="56" height="106" rx="10" fill="#163057" stroke="#1D5FDB" stroke-width="5"/>
+  <!-- storefront glass pane -->
+  <rect x="110" y="100" width="36" height="32" rx="6" fill="#38BDF8"/>
+  <!-- door handle -->
+  <circle cx="147" cy="162" r="5.5" fill="#FF5C1A"/>
+  <!-- emergency chevrons -->
+  <path d="M64 218 L82 200 M86 218 L104 200" stroke="#FF5C1A" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M152 218 L170 200 M174 218 L192 200" stroke="#FF5C1A" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+</svg>

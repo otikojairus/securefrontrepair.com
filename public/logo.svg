@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SecureFront Repair logo">
+  <rect width="256" height="256" rx="30" fill="#0B1F3A"/>
+  <rect x="8" y="8" width="240" height="240" rx="24" fill="none" stroke="#2A3B5E" stroke-width="3"/>
+  <!-- shield -->
+  <path d="M128 40 C160 40 188 54 200 80 L200 128 C200 174 170 202 128 218 C86 202 56 174 56 128 L56 80 C68 54 96 40 128 40 Z" fill="#13284A" stroke="#2E4A78" stroke-width="4"/>
+  <!-- door body -->
+  <rect x="100" y="86" width="56" height="104" rx="10" fill="#163057" stroke="#1D5FDB" stroke-width="4"/>
+  <!-- storefront glass pane -->
+  <rect x="110" y="100" width="36" height="32" rx="6" fill="#38BDF8"/>
+  <!-- door handle -->
+  <circle cx="147" cy="160" r="5.5" fill="#FF5C1A"/>
+  <!-- emergency chevrons -->
+  <path d="M66 224 L84 206 M88 224 L106 206" stroke="#FF5C1A" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <path d="M150 224 L168 206 M172 224 L190 206" stroke="#FF5C1A" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+</svg>

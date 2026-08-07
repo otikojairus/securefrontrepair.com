@@ -485,25 +485,6 @@ p {
   min-height: 340px;
 }
 
-.sfr-hero-media::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border: 4px solid transparent;
-  background:
-    linear-gradient(var(--sfr-surface), var(--sfr-surface)) padding-box,
-    repeating-linear-gradient(
-        -45deg,
-        var(--sfr-orange) 0 14px,
-        var(--sfr-ink) 14px 28px
-      )
-      border-box;
-  border-radius: 18px;
-  z-index: 2;
-  pointer-events: none;
-  opacity: 0.85;
-}
-
 .sfr-hero-media img {
   width: 100%;
   height: 100%;
@@ -599,6 +580,16 @@ p {
 
 .sfr-band p {
   color: #c8d3e4;
+}
+
+/* Cards inside a dark band (e.g. Common Questions) sit on white surfaces,
+   so keep their text in the dark ink range for clear contrast. */
+.sfr-band .sfr-card h3 {
+  color: var(--sfr-ink);
+}
+
+.sfr-band .sfr-card p {
+  color: var(--sfr-ink-soft);
 }
 
 .sfr-split {
